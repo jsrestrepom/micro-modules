@@ -1,0 +1,4 @@
+//rootProject.name = 'scala-microservices'
+
+include 'akka-micro', 'client', 'zip-util','ml'
+
