@@ -1,4 +1,4 @@
-group 'akka-httpj'
+group 'akka-https'
 version '1.0.0'
 apply plugin: 'scala'
 
@@ -42,7 +42,7 @@ task fatJar(type: Jar) {
 }
 
 task serverRunner(type: JavaExec) {
-    classpath = files('build/libs/akka-httpj-all-1.0-SNAPSHOT.jar')
+    classpath = files('build/libs/akka-https-all-1.0-SNAPSHOT.jar')
     classpath += sourceSets.main.runtimeClasspath
     main = "$mainClassName"
 }

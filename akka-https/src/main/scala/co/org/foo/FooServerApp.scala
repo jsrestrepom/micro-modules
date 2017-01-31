@@ -8,9 +8,6 @@ import akka.stream.ActorMaterializer
 
 import scala.io.StdIn
 
-/**
-  * Created by jsrestrepom on 30/01/2017.
-  */
 object FooServerApp {
 
   def main(args: Array[String]): Unit = {
