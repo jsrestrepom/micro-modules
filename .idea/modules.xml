@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj.iml" group="akka-httpj" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj_main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj_main.iml" group="akka-httpj" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj_test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-httpj/akka-httpj_test.iml" group="akka-httpj" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-https/akka-https.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-https/akka-https.iml" group="akka-https" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-https/akka-https_main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-https/akka-https_main.iml" group="akka-https" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-https/akka-https_test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-https/akka-https_test.iml" group="akka-https" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro.iml" group="akka-micro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro_main.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro_main.iml" group="akka-micro" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro_test.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-micro/akka-micro_test.iml" group="akka-micro" />

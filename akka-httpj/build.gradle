@@ -25,7 +25,7 @@ dependencies {
 }
 
 task "create-dirs" << {
-    sourceSets*.scala.srcDirs*.each {it.mkdirs()}
+    sourceSets*.java.srcDirs*.each {it.mkdirs()}
     sourceSets*.resources.srcDirs*.each {it.mkdirs()}
 }
 

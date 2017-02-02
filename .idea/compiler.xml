@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="akka-httpj_main" target="1.8" />
+      <module name="akka-httpj_test" target="1.8" />
+      <module name="akka-https_main" target="1.8" />
+      <module name="akka-https_test" target="1.8" />
       <module name="akka-micro_main" target="1.8" />
       <module name="akka-micro_test" target="1.8" />
       <module name="client_main" target="1.8" />

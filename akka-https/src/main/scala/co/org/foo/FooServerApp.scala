@@ -1,5 +1,10 @@
 package co.org.foo
 
+import akka.http.scaladsl.Http.ServerBinding
+import akka.http.scaladsl.server.Route
+
+import scala.concurrent.Future
+
 
 object WebServer {
   import akka.actor.ActorSystem
@@ -15,13 +20,13 @@ object WebServer {
     implicit val materializer = ActorMaterializer()
     implicit val executionContext = system.dispatcher
 
-    val route =
+    val route: Route =
       path("hello") {
         get {
           complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Say hello to akka-httpj</h1>"))
         }
       }
-    val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
+    val bindingFuture: Future[ServerBinding] = Http().bindAndHandle(route, "localhost", 8080)
 
     println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
     StdIn.readLine()

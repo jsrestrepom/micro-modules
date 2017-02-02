@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
     compile 'com.typesafe.akka:akka-http_2.11:10.0.3'
+    compile 'com.typesafe.akka:akka-http-spray-json_2.11:10.0.3'
 }
 
 task "create-dirs" << {
